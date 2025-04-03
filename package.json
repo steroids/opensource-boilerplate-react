@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "@sentry/browser": "^5.27.3",
-    "@steroidsjs/bootstrap": "^3.0.10",
-    "@steroidsjs/core": "^3.0.11",
-    "@steroidsjs/webpack": "^4.0.5",
+    "@steroidsjs/bootstrap": "3.0.30",
+    "@steroidsjs/core": "3.0.52",
+    "@steroidsjs/webpack": "4.1.0",
     "connected-react-router": "^6.9.1",
     "lodash": "^4.17.21",
     "lodash-es": "^4.17.21",
