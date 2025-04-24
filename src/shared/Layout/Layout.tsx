@@ -14,7 +14,6 @@ import './Layout.scss';
 export default function Layout(props: React.PropsWithChildren<any>) {
     const bem = useBem('Layout');
 
-    //const components = useComponents();
     const {status} = useLayout(/*() => components.http.post('/api/v1/init')*/);
 
     if (status !== STATUS_OK) {
