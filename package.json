@@ -7,7 +7,10 @@
   "scripts": {
     "watch": "node webpack",
     "build": "node webpack production",
-    "lint": "eslint -c ./.eslintrc --ext .js,.jsx,.ts,.tsx ./src"
+    "lint": "eslint -c ./.eslintrc --ext .js,.jsx,.ts,.tsx ./src",
+    "server": "node public/server.js",
+    "build-ssr": "node webpack production ssr",
+    "ssr": "npm run build ssr && npm run server"
   },
   "engines": {
     "node": ">=18"
@@ -16,6 +19,7 @@
     "@sentry/browser": "^5.27.3",
     "@steroidsjs/bootstrap": "3.0.30",
     "@steroidsjs/core": "3.0.52",
+    "@steroidsjs/ssr": "^3.0.1",
     "@steroidsjs/webpack": "4.1.0",
     "connected-react-router": "^6.9.1",
     "lodash": "^4.17.21",
