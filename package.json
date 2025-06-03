@@ -9,6 +9,9 @@
     "build": "node webpack production",
     "lint": "eslint -c ./.eslintrc --ext .js,.jsx,.ts,.tsx ./src"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@sentry/browser": "^5.27.3",
     "@steroidsjs/bootstrap": "3.0.30",
