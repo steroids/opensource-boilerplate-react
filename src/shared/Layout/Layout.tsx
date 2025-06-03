@@ -14,6 +14,8 @@ import './Layout.scss';
 export default function Layout(props: React.PropsWithChildren<any>) {
     const bem = useBem('Layout');
 
+    // If you need to make an API call to initialize the layout, you can uncomment the following lines.
+    // const components = useComponents();
     const {status} = useLayout(/*() => components.http.post('/api/v1/init')*/);
 
     if (status !== STATUS_OK) {
